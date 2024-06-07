@@ -10,7 +10,7 @@ Table of Contents
   
 - [Standardizing data](#3-standardizing-data)
   
-- [Removing Nulls](#4-removing-duplicates)
+- [Removing Nulls](#4-removing-nulls)
   
 - [Checking for duplicates](#5-checking-for-duplicates)
   
@@ -94,7 +94,7 @@ USE [Data cleaning] --Select the name of database
 
  EXEC SP_RENAME 'Zara.currency','Currency' --name of tabele.name of column to the name you want to name the column
 ```
-## 3.Standardizing Data
+## 3. Standardizing Data
 
 Standardizing data is a vital step in the data cleaning process that ensures consistency, accuracy and usability of the dataset.
 
@@ -163,7 +163,7 @@ SELECT UPPER(SUBSTRING(Product_Type,1,1))+
 	   LOWER(SUBSTRING(Product_Name,2,len(Product_Name)-1))
 	   from Zara
 ```
-## 4.Removing Nulls
+## 4. Removing Nulls
 Removing nulls (missing values)  in the data cleaning process is significantly important since it  impacts the quality, accuracy and reliability of data analysis.
 ```sql
 	  SELECT *
@@ -174,7 +174,7 @@ DELETE FROM Zara
 WHERE Product_ID =173576
 ```
 
-## 5.Checking for Duplicates
+## 5. Checking for Duplicates
 Removing duplicates  helps maintain the integrity, accuracy and reliability of a dataset.
 ```sql
 --we are going to partition and order by the unique ID in order to chec if there are duplicates

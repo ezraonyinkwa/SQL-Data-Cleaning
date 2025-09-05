@@ -35,7 +35,7 @@ The following highlight the data cleaning steps I used to ensure a clean dataset
 Deleting unwanted columns is a critical step in the data cleaning process. This practice holds several key benefits that contribute to the overall quality and efficiency of data analysis.
 
 ``` sql
---Not every column in a dataset is of importance in every analysis,some columns you wont use in your analysis
+--Not every column in a dataset is of importance on the analysis you want to carry out,some columns you wont use in your analysis
 --the best way to deal with this is to remove the column to reduce the size of the data
  
  --We are going to remove the following columns

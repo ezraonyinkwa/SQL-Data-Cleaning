@@ -1,1 +1,9 @@
+-DATA CLEANING
+--1.Removing Unwanted columns
+--2.Renaming Columns
+--3.Standardizing/Formatting data
+--4.Removing Nulls 
+--5.Removing Duplicates
+```SQL
+
 

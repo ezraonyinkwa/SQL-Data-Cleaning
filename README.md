@@ -30,18 +30,7 @@ The following highlight the data cleaning steps I used to ensure a clean dataset
 - Removing Nulls 
 - Removing Duplicates
 
-``` sql
---Before beginning the data cleaning process,we are going to create a duplicate table,
---Incase of a mistake we can have our other table
 
-SELECT *
-INTO Zara
-FROM zara_raw
-
-SELECT *
-from Zara --We are going to select all and check if the columns and data are correct
-
-```
 ## 1. Removing Unwanted Columns
 Deleting unwanted columns is a critical step in the data cleaning process. This practice holds several key benefits that contribute to the overall quality and efficiency of data analysis.
 
